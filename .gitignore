@@ -1,0 +1,7 @@
+# ignore deploy/ as it is automatically generated
+deploy/
+# ignore project files for Kate
+.kateproject
+.kateproject.d/
+# ignore automatic backups
+*~
