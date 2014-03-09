@@ -17,7 +17,7 @@
  * @package    CairoForPHP
  * @subpackage Utilities
  * @author     Florian F Freeman <florian@phpws.org>
- * @copyright  2009 Florian F Freeman
+ * @copyright  2009-2010 Florian F Freeman
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
  * @version    CVS: $Id:$
  * @link       http://gtk.php.net
@@ -31,7 +31,7 @@ $prj_dir = dirname(dirname(__FILE__));
 $src_dir = $prj_dir.'/src';
 
 //Show help
-if($_SERVER['argv'][1] == '--help') {
+if(isset($_SERVER['argv'][1]) && $_SERVER['argv'][1] == '--help') {
     print "Usage: renderCache[.php] [--help|<option>]\n\n";
     print "General:\n\n";
     print "  --help       Show this help.\n\n";
@@ -65,12 +65,18 @@ print "Extending CfpMainWindow with renderCache() method...\n";
  * @ignore
  */
 class CfpMainWindowRenderer extends CfpMainWindow {
+    private function gtkMain() {
+        while(Gtk::events_pending()) {
+            gtk::main_iteration();
+        }
+    }
     public function renderCache() {
         $wnd = new GtkWindow();
         $canv = new GtkDrawingArea();
         $canv->set_size_request(256, 256);
         $wnd->add($canv);
         $wnd->show_all();
+        $this->gtkMain();
         foreach($this->sampleIndex as $sname => $sdata) {
             $img_path = $this->conf->res_path.'/cached/'.$sdata['file'].'.dat';
             $data = call_user_func(
@@ -135,7 +141,8 @@ print "Simulating application run...\n";
 $CFP_CONF = new CfpPreferences();
 $CFP_CONF->sample_index = $src_dir.'/res/sampleIndex.xml';
 $CFP_CONF->res_path = $src_dir.'/res';
-define(CFP_INC_PATH, $src_dir.'/inc');
+define('CFP_INC_PATH', $src_dir.'/inc');
+$GLOBALS['CFP_STRINGS']['APP_TITLE'] = "Cairo For PHP Simulation";
 $wnd = new CfpMainWindowRenderer();
 $wnd->show_all();
 $wnd->hide_all();

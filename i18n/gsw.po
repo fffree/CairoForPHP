@@ -19,7 +19,7 @@
 #
 # @package    CairoForPHP
 # @author     Florian F Freeman <florian@phpws.org>
-# @copyright  2009 Florian F Freeman
+# @copyright  2009-2010 Florian F Freeman
 # @license    http://www.php.net/license/3_01.txt  PHP License 3.01
 # @version    CVS: $Id:$
 # @link       http://gtk.php.net
@@ -27,10 +27,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: CairoForPHP 1.0.0\n"
+"Project-Id-Version: CairoForPHP 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-05 18:14+America/Detroit\n"
-"PO-Revision-Date: 2009-07-05 22:59-0000\n"
+"POT-Creation-Date: 2010-08-03 11:27+Europe/London\n"
+"PO-Revision-Date: 2010-08-03 11:40+0100\n"
 "Last-Translator: Florian F Freeman <florian@phpws.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -44,17 +44,14 @@ msgstr ""
 msgid "Application loading complete..."
 msgstr "S lade vura Aawendig isch abgschlosse..."
 
-#: src/inc/CfpExceptionDialog.php:43 src/inc/CfpExceptionDialog.php:52
+#: src/inc/CfpExceptionDialog.php:43
+#: src/inc/CfpExceptionDialog.php:52
 msgid "Fatal Error: Unhandled Exception!"
 msgstr "Schwerer Fehler: Unbehandelde Uusnohm!"
 
 #: src/inc/CfpExceptionDialog.php:53
-msgid ""
-"An unhandled error has occured whilst operating this application and the "
-"application will now be terminated."
-msgstr ""
-"Während d Uusführig vu seller Aawendig isch e unbehandelder Fähler ufftrode "
-"un eso muss d Aawendig nu terminiert wäre."
+msgid "An unhandled error has occured whilst operating this application and the application will now be terminated."
+msgstr "Während d Uusführig vu seller Aawendig isch e unbehandelder Fähler ufftrode un eso muss d Aawendig nu terminiert wäre."
 
 #: src/inc/CfpExceptionDialog.php:55
 msgid "Details:"
@@ -84,7 +81,8 @@ msgstr "Version:"
 msgid "Stack Trace:"
 msgstr "Schtapelverfolgig:"
 
-#: src/inc/CfpMainWindow.php:109 src/inc/CfpMainWindow.php:485
+#: src/inc/CfpMainWindow.php:109
+#: src/inc/CfpMainWindow.php:485
 msgid "Ready"
 msgstr "Fertig"
 
@@ -96,7 +94,8 @@ msgstr "Quellkood:"
 msgid "Result:"
 msgstr "Resuldad:"
 
-#: src/inc/CfpMainWindow.php:285 src/inc/CfpWebInterface.php:216
+#: src/inc/CfpMainWindow.php:285
+#: src/inc/CfpWebInterface.php:218
 msgid "About"
 msgstr "Über"
 
@@ -104,7 +103,8 @@ msgstr "Über"
 msgid "Show more information about this application"
 msgstr "Mehr informatione über selle Aawendig aazeige"
 
-#: src/inc/CfpMainWindow.php:295 src/inc/CfpPreferencesDialog.php:135
+#: src/inc/CfpMainWindow.php:295
+#: src/inc/CfpPreferencesDialog.php:135
 msgid "Preferences"
 msgstr "Iischtellige"
 
@@ -120,7 +120,8 @@ msgstr "Live Rendere"
 msgid "Switch between live rendering and expected-display mode"
 msgstr "Zwische em Live Rendering un em Modus für d Erwardede Uusgob wäggsle"
 
-#: src/inc/CfpMainWindow.php:324 src/inc/CfpWebInterface.php:205
+#: src/inc/CfpMainWindow.php:324
+#: src/inc/CfpWebInterface.php:206
 msgid "Next"
 msgstr "Näggschdes"
 
@@ -128,12 +129,12 @@ msgstr "Näggschdes"
 msgid "Display the next example"
 msgstr "S näggschde Beischbiil aazeige"
 
-#: src/inc/CfpMainWindow.php:334 src/inc/CfpWebInterface.php:196
+#: src/inc/CfpMainWindow.php:334
+#: src/inc/CfpWebInterface.php:196
 msgid "Previous"
 msgstr "Vorheeriges"
 
 #: src/inc/CfpMainWindow.php:336
-#, fuzzy
 msgid "Display the previous example"
 msgstr "S vorheerige Beischbiil aazeige"
 
@@ -147,11 +148,11 @@ msgstr "D neie Iischtellige sin eso nit gsi übrnomme wore..."
 
 #: src/inc/CfpPreferencesDialog.php:152
 msgid "Save"
-msgstr ""
+msgstr "Speichere"
 
 #: src/inc/CfpPreferencesDialog.php:153
 msgid "Cancel"
-msgstr ""
+msgstr "Abbreche"
 
 #: src/inc/CfpPreferencesDialog.php:177
 msgid "Display"
@@ -181,11 +182,13 @@ msgstr "Unde"
 msgid "Show toolbar:"
 msgstr "Toolbar aazeige:"
 
-#: src/inc/CfpPreferencesDialog.php:230 src/inc/CfpPreferencesDialog.php:286
+#: src/inc/CfpPreferencesDialog.php:230
+#: src/inc/CfpPreferencesDialog.php:286
 msgid "Yes"
 msgstr "Jo"
 
-#: src/inc/CfpPreferencesDialog.php:233 src/inc/CfpPreferencesDialog.php:289
+#: src/inc/CfpPreferencesDialog.php:233
+#: src/inc/CfpPreferencesDialog.php:289
 msgid "No"
 msgstr "Nai"
 
@@ -195,35 +198,28 @@ msgstr "Toolbar-Schdiil:"
 
 #: src/inc/CfpPreferencesDialog.php:264
 msgid "Icon only"
-msgstr ""
+msgstr "Nur Icons"
 
 #: src/inc/CfpPreferencesDialog.php:265
 msgid "Text only"
-msgstr ""
+msgstr "Nur Teggschd"
 
 #: src/inc/CfpPreferencesDialog.php:266
+#, fuzzy
 msgid "Icon above text"
-msgstr ""
+msgstr "Icon überm Teggschd"
 
 #: src/inc/CfpPreferencesDialog.php:267
 msgid "Icon left of text"
-msgstr ""
+msgstr "Icon links vum Teggschd"
 
 #: src/inc/CfpPreferencesDialog.php:337
 msgid "Paths"
 msgstr "Pfääd:"
 
 #: src/inc/CfpPreferencesDialog.php:344
-msgid ""
-"<b>Caution:</b> It is recommended that you do not modify the settings on "
-"this page unless you know how this will affect the working of this "
-"application. Should you encounter any problems you can always manually  edit "
-"the file <tt>cfp-conf.ini</tt> in the application's main directory."
-msgstr ""
-"<b>Obacht:</b> S wird empfohle dass mer d Iischtellige vu seller siide nit "
-"ändre dued wema nit ganz gnau ä Ahnig hät wie sel s innere Schaffe vu d "
-"Aawendig kaa abändere. Sollt denno e Problem gä ka mer d Datei <tt>cfp-conf."
-"ini</tt> in em Verzeichnis vura Aawendig abr au nonom händisch apasse."
+msgid "<b>Caution:</b> It is recommended that you do not modify the settings on this page unless you know how this will affect the working of this application. Should you encounter any problems you can always manually  edit the file <tt>cfp-conf.ini</tt> in the application's main directory."
+msgstr "<b>Obacht:</b> S wird empfohle dass mer d Iischtellige vu seller siide nit ändre dued wema nit ganz gnau ä Ahnig hät wie sel s innere Schaffe vu d Aawendig kaa abändere. Sollt denno e Problem gä ka mer d Datei <tt>cfp-conf.ini</tt> in em Verzeichnis vura Aawendig abr au nonom händisch apasse."
 
 #: src/inc/CfpPreferencesDialog.php:371
 msgid "Application resources:"
@@ -249,43 +245,48 @@ msgstr "XML Doggumente (*.xml)"
 msgid "All Files (*.*)"
 msgstr "Alle Dadeie (*.*)"
 
-#: src/inc/CfpWebInterface.php:362
+#: src/inc/CfpWebInterface.php:366
 msgid "Error 404: File Not Found."
-msgstr ""
-
-#: src/inc/CfpWebInterface.php:363
-msgid "The requested URI could not be found."
-msgstr ""
-
-#: src/inc/CfpWebInterface.php:365
-msgid "URI Requested:"
-msgstr ""
+msgstr "Fehler 404: Dadei nit gfunde."
 
 #: src/inc/CfpWebInterface.php:367
-msgid "Referer:"
-msgstr ""
+msgid "The requested URI could not be found."
+msgstr "D aagfroderde URI hett nit könne funde werre."
 
 #: src/inc/CfpWebInterface.php:369
-msgid "Host:"
-msgstr ""
+msgid "URI Requested:"
+msgstr "Aagforderde URI:"
 
 #: src/inc/CfpWebInterface.php:371
-msgid "User-Agent:"
-msgstr ""
+#, fuzzy
+msgid "Referer:"
+msgstr "Referer:"
 
-#: src/inc/CfpWebInterface.php:398
+#: src/inc/CfpWebInterface.php:373
+msgid "Host:"
+msgstr "Hoscht:"
+
+#: src/inc/CfpWebInterface.php:375
+msgid "User-Agent:"
+msgstr "Klient:"
+
+#: src/inc/CfpWebInterface.php:402
 msgid "Live Image:"
 msgstr "Live Bild:"
 
-#: src/inc/CfpWebInterface.php:400
+#: src/inc/CfpWebInterface.php:403
+msgid "Live Image"
+msgstr "Live Bild"
+
+#: src/inc/CfpWebInterface.php:405
 msgid "Expected Output:"
 msgstr "Erwardede Uusgob:"
 
-#: src/inc/CfpWebInterface.php:401
-#, fuzzy
+#: src/inc/CfpWebInterface.php:406
 msgid "Expected Output"
-msgstr "Erwardede Uusgob:"
+msgstr "Erwardede Uusgob"
 
-#: src/inc/CfpWebInterface.php:433
+#: src/inc/CfpWebInterface.php:439
 msgid "License Terms:"
-msgstr ""
+msgstr "Lizenzbedingige:"
+

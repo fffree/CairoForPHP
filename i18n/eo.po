@@ -19,7 +19,7 @@
 #
 # @package    CairoForPHP
 # @author     Florian F Freeman <florian@phpws.org>
-# @copyright  2009 Florian F Freeman
+# @copyright  2009-2010 Florian F Freeman
 # @license    http://www.php.net/license/3_01.txt  PHP License 3.01
 # @version    CVS: $Id:$
 # @link       http://gtk.php.net
@@ -27,10 +27,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: CairoForPHP 1.0.0\n"
+"Project-Id-Version: CairoForPHP 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-05 18:14+America/Detroit\n"
-"PO-Revision-Date: 2009-07-10 22:29-0000\n"
+"POT-Creation-Date: 2010-08-03 11:27+Europe/London\n"
+"PO-Revision-Date: 2010-08-03 11:35+0100\n"
 "Last-Translator: Florian F Freeman <florian@phpws.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgid "Result:"
 msgstr "Rezultato:"
 
 #: src/inc/CfpMainWindow.php:285
-#: src/inc/CfpWebInterface.php:216
+#: src/inc/CfpWebInterface.php:218
 msgid "About"
 msgstr "Informaĵoj"
 
@@ -121,7 +121,7 @@ msgid "Switch between live rendering and expected-display mode"
 msgstr "Ŝaltus aktiva aŭ malaktiva la rendimenti rekta por la specimeno"
 
 #: src/inc/CfpMainWindow.php:324
-#: src/inc/CfpWebInterface.php:205
+#: src/inc/CfpWebInterface.php:206
 msgid "Next"
 msgstr "Venontus"
 
@@ -245,44 +245,47 @@ msgstr "Fajliloj XML (*.xml)"
 msgid "All Files (*.*)"
 msgstr "Ĉiuj Fajliloj (*.*)"
 
-#: src/inc/CfpWebInterface.php:362
+#: src/inc/CfpWebInterface.php:366
 msgid "Error 404: File Not Found."
 msgstr ""
 
-#: src/inc/CfpWebInterface.php:363
+#: src/inc/CfpWebInterface.php:367
 msgid "The requested URI could not be found."
 msgstr ""
 
-#: src/inc/CfpWebInterface.php:365
+#: src/inc/CfpWebInterface.php:369
 msgid "URI Requested:"
 msgstr ""
 
-#: src/inc/CfpWebInterface.php:367
+#: src/inc/CfpWebInterface.php:371
 msgid "Referer:"
 msgstr ""
 
-#: src/inc/CfpWebInterface.php:369
+#: src/inc/CfpWebInterface.php:373
 msgid "Host:"
 msgstr ""
 
-#: src/inc/CfpWebInterface.php:371
+#: src/inc/CfpWebInterface.php:375
 msgid "User-Agent:"
 msgstr ""
 
-#: src/inc/CfpWebInterface.php:398
+#: src/inc/CfpWebInterface.php:402
 msgid "Live Image:"
 msgstr "Rendimento reala:"
 
-#: src/inc/CfpWebInterface.php:400
+#: src/inc/CfpWebInterface.php:403
+msgid "Live Image"
+msgstr "Rendimento reala"
+
+#: src/inc/CfpWebInterface.php:405
 msgid "Expected Output:"
 msgstr "Rendimento atenda:"
 
-#: src/inc/CfpWebInterface.php:401
-#, fuzzy
+#: src/inc/CfpWebInterface.php:406
 msgid "Expected Output"
-msgstr "Rendimento atenda:"
+msgstr "Rendimento atenda"
 
-#: src/inc/CfpWebInterface.php:433
+#: src/inc/CfpWebInterface.php:439
 msgid "License Terms:"
 msgstr ""
 

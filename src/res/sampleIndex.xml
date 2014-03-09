@@ -16,7 +16,7 @@
   @package    CairoForPHP
   @subpackage Resources
   @author     Florian F Freeman <florian@phpws.org>
-  @copyright  2009 Florian F Freeman
+  @copyright  2009-2010 Florian F Freeman
   @license    http://www.php.net/license/3_01.txt  PHP License 3.01
   @version    CVS: $Id:$
   @link       http://gtk.php.net
@@ -77,6 +77,7 @@
   <sample name="sImage" title="Image" />
   <sample name="sImagePattern" title="Image Pattern" />
   <sample name="sMultiSegmentCaps" title="Multi Segement Caps" />
+  <sample name="sRoundedRectangle" title="Rounded Rectangle" />
   <sample name="sSetLineCap" title="Set Line Cap" />
   <sample name="sSetLineJoin" title="Set Line Join" />
   <sample name="sText" title="Text" />

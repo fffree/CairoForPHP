@@ -19,7 +19,7 @@
 #
 # @package    CairoForPHP
 # @author     Florian F Freeman <florian@phpws.org>
-# @copyright  2009 Florian F Freeman
+# @copyright  2009-2010 Florian F Freeman
 # @license    http://www.php.net/license/3_01.txt  PHP License 3.01
 # @version    CVS: $Id:$
 # @link       http://gtk.php.net
@@ -27,9 +27,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: CairoForPHP 1.0.0\n"
+"Project-Id-Version: CairoForPHP 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-05 18:14+America/Detroit\n"
+"POT-Creation-Date: 2010-08-03 11:27+Europe/London\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Florian F Freeman <florian@phpws.org>\n"
 "Language-Team: \n"
@@ -94,7 +94,7 @@ msgid "Result:"
 msgstr "Resultado:"
 
 #: src/inc/CfpMainWindow.php:285
-#: src/inc/CfpWebInterface.php:216
+#: src/inc/CfpWebInterface.php:218
 msgid "About"
 msgstr "Información"
 
@@ -120,7 +120,7 @@ msgid "Switch between live rendering and expected-display mode"
 msgstr "Cambiar para renderizar en directo o mostrar la gráfica en espera"
 
 #: src/inc/CfpMainWindow.php:324
-#: src/inc/CfpWebInterface.php:205
+#: src/inc/CfpWebInterface.php:206
 msgid "Next"
 msgstr "Próximo"
 
@@ -243,43 +243,47 @@ msgstr "Documentos de XML (*.xml)"
 msgid "All Files (*.*)"
 msgstr "Todos los ficheros (*.*)"
 
-#: src/inc/CfpWebInterface.php:362
+#: src/inc/CfpWebInterface.php:366
 msgid "Error 404: File Not Found."
 msgstr "Error 404: El fichero no se ha encontrado."
 
-#: src/inc/CfpWebInterface.php:363
+#: src/inc/CfpWebInterface.php:367
 msgid "The requested URI could not be found."
 msgstr "La URI demandada no se ha localizado en este sistema."
 
-#: src/inc/CfpWebInterface.php:365
+#: src/inc/CfpWebInterface.php:369
 msgid "URI Requested:"
 msgstr "URI Demandada:"
 
-#: src/inc/CfpWebInterface.php:367
+#: src/inc/CfpWebInterface.php:371
 msgid "Referer:"
 msgstr "Referer:"
 
-#: src/inc/CfpWebInterface.php:369
+#: src/inc/CfpWebInterface.php:373
 msgid "Host:"
 msgstr "Host:"
 
-#: src/inc/CfpWebInterface.php:371
+#: src/inc/CfpWebInterface.php:375
 msgid "User-Agent:"
 msgstr "Navegador:"
 
-#: src/inc/CfpWebInterface.php:398
+#: src/inc/CfpWebInterface.php:402
 msgid "Live Image:"
 msgstr "Gráfico Renderizado:"
 
-#: src/inc/CfpWebInterface.php:400
+#: src/inc/CfpWebInterface.php:403
+msgid "Live Image"
+msgstr "Gráfico Renderizado"
+
+#: src/inc/CfpWebInterface.php:405
 msgid "Expected Output:"
 msgstr "Resultado Esperado:"
 
-#: src/inc/CfpWebInterface.php:401
+#: src/inc/CfpWebInterface.php:406
 msgid "Expected Output"
 msgstr "Resultado Esperado"
 
-#: src/inc/CfpWebInterface.php:433
+#: src/inc/CfpWebInterface.php:439
 msgid "License Terms:"
 msgstr "Condiciones de la Licencia:"
 

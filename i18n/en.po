@@ -19,7 +19,7 @@
 #
 # @package    CairoForPHP
 # @author     Florian F Freeman <florian@phpws.org>
-# @copyright  2009 Florian F Freeman
+# @copyright  2009-2010 Florian F Freeman
 # @license    http://www.php.net/license/3_01.txt  PHP License 3.01
 # @version    CVS: $Id:$
 # @link       http://gtk.php.net
@@ -27,10 +27,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: CairoForPHP 1.0.0\n"
+"Project-Id-Version: CairoForPHP 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-05 18:14+America/Detroit\n"
-"PO-Revision-Date: 2009-07-05 22:59-0000\n"
+"POT-Creation-Date: 2010-08-03 11:27+Europe/London\n"
+"PO-Revision-Date: 2010-08-03 11:32+0100\n"
 "Last-Translator: Florian F Freeman <florian@phpws.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -42,17 +42,14 @@ msgstr ""
 msgid "Application loading complete..."
 msgstr "Application loading complete..."
 
-#: src/inc/CfpExceptionDialog.php:43 src/inc/CfpExceptionDialog.php:52
+#: src/inc/CfpExceptionDialog.php:43
+#: src/inc/CfpExceptionDialog.php:52
 msgid "Fatal Error: Unhandled Exception!"
 msgstr "Fatal Error: Unhandled Exception!"
 
 #: src/inc/CfpExceptionDialog.php:53
-msgid ""
-"An unhandled error has occured whilst operating this application and the "
-"application will now be terminated."
-msgstr ""
-"An unhandled error has occured whilst operating this application and the "
-"application will now be terminated."
+msgid "An unhandled error has occured whilst operating this application and the application will now be terminated."
+msgstr "An unhandled error has occured whilst operating this application and the application will now be terminated."
 
 #: src/inc/CfpExceptionDialog.php:55
 msgid "Details:"
@@ -82,7 +79,8 @@ msgstr "Version:"
 msgid "Stack Trace:"
 msgstr "Stack Trace:"
 
-#: src/inc/CfpMainWindow.php:109 src/inc/CfpMainWindow.php:485
+#: src/inc/CfpMainWindow.php:109
+#: src/inc/CfpMainWindow.php:485
 msgid "Ready"
 msgstr "Ready"
 
@@ -94,7 +92,8 @@ msgstr "Source code:"
 msgid "Result:"
 msgstr "Result:"
 
-#: src/inc/CfpMainWindow.php:285 src/inc/CfpWebInterface.php:216
+#: src/inc/CfpMainWindow.php:285
+#: src/inc/CfpWebInterface.php:218
 msgid "About"
 msgstr "About"
 
@@ -102,7 +101,8 @@ msgstr "About"
 msgid "Show more information about this application"
 msgstr "Show more information about this application"
 
-#: src/inc/CfpMainWindow.php:295 src/inc/CfpPreferencesDialog.php:135
+#: src/inc/CfpMainWindow.php:295
+#: src/inc/CfpPreferencesDialog.php:135
 msgid "Preferences"
 msgstr "Preferences"
 
@@ -118,7 +118,8 @@ msgstr "Render Live"
 msgid "Switch between live rendering and expected-display mode"
 msgstr "Switch between live rendering and expected-display mode"
 
-#: src/inc/CfpMainWindow.php:324 src/inc/CfpWebInterface.php:205
+#: src/inc/CfpMainWindow.php:324
+#: src/inc/CfpWebInterface.php:206
 msgid "Next"
 msgstr "Next"
 
@@ -126,14 +127,14 @@ msgstr "Next"
 msgid "Display the next example"
 msgstr "Display the next example"
 
-#: src/inc/CfpMainWindow.php:334 src/inc/CfpWebInterface.php:196
+#: src/inc/CfpMainWindow.php:334
+#: src/inc/CfpWebInterface.php:196
 msgid "Previous"
 msgstr "Previous"
 
 #: src/inc/CfpMainWindow.php:336
-#, fuzzy
 msgid "Display the previous example"
-msgstr "Display the previous"
+msgstr "Display the previous example"
 
 #: src/inc/CfpMainWindow.php:475
 msgid "New preferences have been applied..."
@@ -145,11 +146,11 @@ msgstr "New preferenced have been discarded..."
 
 #: src/inc/CfpPreferencesDialog.php:152
 msgid "Save"
-msgstr ""
+msgstr "Save"
 
 #: src/inc/CfpPreferencesDialog.php:153
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel"
 
 #: src/inc/CfpPreferencesDialog.php:177
 msgid "Display"
@@ -179,11 +180,13 @@ msgstr "Bottom"
 msgid "Show toolbar:"
 msgstr "Show toolbar:"
 
-#: src/inc/CfpPreferencesDialog.php:230 src/inc/CfpPreferencesDialog.php:286
+#: src/inc/CfpPreferencesDialog.php:230
+#: src/inc/CfpPreferencesDialog.php:286
 msgid "Yes"
 msgstr "Yes"
 
-#: src/inc/CfpPreferencesDialog.php:233 src/inc/CfpPreferencesDialog.php:289
+#: src/inc/CfpPreferencesDialog.php:233
+#: src/inc/CfpPreferencesDialog.php:289
 msgid "No"
 msgstr "No"
 
@@ -193,35 +196,27 @@ msgstr "Toolbar style:"
 
 #: src/inc/CfpPreferencesDialog.php:264
 msgid "Icon only"
-msgstr ""
+msgstr "Icon only"
 
 #: src/inc/CfpPreferencesDialog.php:265
 msgid "Text only"
-msgstr ""
+msgstr "Text only"
 
 #: src/inc/CfpPreferencesDialog.php:266
 msgid "Icon above text"
-msgstr ""
+msgstr "Icon above text"
 
 #: src/inc/CfpPreferencesDialog.php:267
 msgid "Icon left of text"
-msgstr ""
+msgstr "Icon left of text"
 
 #: src/inc/CfpPreferencesDialog.php:337
 msgid "Paths"
 msgstr "Paths"
 
 #: src/inc/CfpPreferencesDialog.php:344
-msgid ""
-"<b>Caution:</b> It is recommended that you do not modify the settings on "
-"this page unless you know how this will affect the working of this "
-"application. Should you encounter any problems you can always manually  edit "
-"the file <tt>cfp-conf.ini</tt> in the application's main directory."
-msgstr ""
-"<b>Caution:</b> It is recommended that you do not modify the settings on "
-"this page unless you know how this will affect the working of this "
-"application. Should you encounter any problems you can always manually  edit "
-"the file <tt>cfp-conf.ini</tt> in the application's main directory."
+msgid "<b>Caution:</b> It is recommended that you do not modify the settings on this page unless you know how this will affect the working of this application. Should you encounter any problems you can always manually  edit the file <tt>cfp-conf.ini</tt> in the application's main directory."
+msgstr "<b>Caution:</b> It is recommended that you do not modify the settings on this page unless you know how this will affect the working of this application. Should you encounter any problems you can always manually  edit the file <tt>cfp-conf.ini</tt> in the application's main directory."
 
 #: src/inc/CfpPreferencesDialog.php:371
 msgid "Application resources:"
@@ -247,43 +242,47 @@ msgstr "XML Document (*.xml)"
 msgid "All Files (*.*)"
 msgstr "All Files (*.*)"
 
-#: src/inc/CfpWebInterface.php:362
+#: src/inc/CfpWebInterface.php:366
 msgid "Error 404: File Not Found."
-msgstr ""
-
-#: src/inc/CfpWebInterface.php:363
-msgid "The requested URI could not be found."
-msgstr ""
-
-#: src/inc/CfpWebInterface.php:365
-msgid "URI Requested:"
-msgstr ""
+msgstr "Error 404: File Not Found."
 
 #: src/inc/CfpWebInterface.php:367
-msgid "Referer:"
-msgstr ""
+msgid "The requested URI could not be found."
+msgstr "The requested URI could not be found."
 
 #: src/inc/CfpWebInterface.php:369
-msgid "Host:"
-msgstr ""
+msgid "URI Requested:"
+msgstr "URI Requested:"
 
 #: src/inc/CfpWebInterface.php:371
-msgid "User-Agent:"
-msgstr ""
+msgid "Referer:"
+msgstr "Referer:"
 
-#: src/inc/CfpWebInterface.php:398
+#: src/inc/CfpWebInterface.php:373
+msgid "Host:"
+msgstr "Host:"
+
+#: src/inc/CfpWebInterface.php:375
+msgid "User-Agent:"
+msgstr "User-Agent:"
+
+#: src/inc/CfpWebInterface.php:402
 msgid "Live Image:"
 msgstr "Live Image:"
 
-#: src/inc/CfpWebInterface.php:400
+#: src/inc/CfpWebInterface.php:403
+msgid "Live Image"
+msgstr "Live Image"
+
+#: src/inc/CfpWebInterface.php:405
 msgid "Expected Output:"
 msgstr "Expected Output:"
 
-#: src/inc/CfpWebInterface.php:401
-#, fuzzy
+#: src/inc/CfpWebInterface.php:406
 msgid "Expected Output"
-msgstr "Expected Output:"
+msgstr "Expected Output"
 
-#: src/inc/CfpWebInterface.php:433
+#: src/inc/CfpWebInterface.php:439
 msgid "License Terms:"
-msgstr ""
+msgstr "License Terms:"
+

@@ -1,0 +1,22 @@
+VERSION 1.0.1
+
+./utils/renderCache.php
+
+- Fixed "Undefined offset: 1" in line 36
+- Fixed unescaped string in line 138
+- Fixed app title string for simulation application
+- Fixed occassional empty renderings by adding gtk::main iterations
+- Removed compression options as they are n/a
+
+./src/inc/sRoundedRectangle.php
+
+- New sample sRoundedRectangle from http://cairographics.org/samples/
+
+./src/res/sampleIndex.xml
+
+- Added sRoundedRectangle
+
+i18n/*
+
+- Updated all language files
+- Added Welsh translation (Thanks to Christopher Swift)

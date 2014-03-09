@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+    <code>cy</code>
+    <name>Welsh</name>
+    <endonym>Cymraeg</endonym>
+    <encoding>utf-8</encoding>
+    <language>
+        <code>cy</code>
+        <name>Welsh</name>
+        <endonym>Cymraeg</endonym>
+    </language>
+    <!-- (Locale is not region specific...)
+    <region>
+        <code>gb</code>
+        <name>Wales</name>
+        <endonym>Cymru</endonym>
+    </region>
+    -->
+    <formatting>
+        <date>j.n.y</date>
+        <time>G:i</time>
+        <datetime>d.m.Y H:i:s T</datetime>
+        <number>
+            <decimals>2</decimals>
+            <dec-point>.</dec-point>
+            <thousands-sep> </thousands-sep>
+        </number>
+    </formatting>
+</locale>

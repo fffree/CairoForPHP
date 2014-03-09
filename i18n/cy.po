@@ -1,7 +1,7 @@
 # #
-# German pot file for CairoForPHP
+# Welsh pot file for CairoForPHP
 #
-# This is the German (de) translation of the pot file for CairoForPHP.
+# This is the Welsh (cy) translation of the pot file for CairoForPHP.
 #
 # When translating this file please remember to change the heading of this
 # description to "LOCALE pot file for CairoForPHP", LOCALE being the locale you
@@ -19,11 +19,12 @@
 #
 # @package    CairoForPHP
 # @author     Florian F Freeman <florian@phpws.org>
+# @author     Christopher Swift (christopher.swift@linux.com)
 # @copyright  2009-2010 Florian F Freeman
 # @license    http://www.php.net/license/3_01.txt  PHP License 3.01
 # @version    CVS: $Id:$
 # @link       http://gtk.php.net
-# @since      1.0.0
+# @since      1.0.1
 #
 msgid ""
 msgstr ""
@@ -31,259 +32,261 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-03 11:27+Europe/London\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Florian F Freeman <florian@phpws.org>\n"
+"Last-Translator: Christopher Swift <christopher.swift@linux.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: German\n"
+"X-Poedit-Language: Welsh\n"
 "X-Poedit-Basepath: ../\n"
 
 #: src/main.php:213
 msgid "Application loading complete..."
-msgstr "Anwendung vollständig geladen..."
+msgstr "Mae llwytho y rhaglen yn cwpledig..."
 
 #: src/inc/CfpExceptionDialog.php:43
 #: src/inc/CfpExceptionDialog.php:52
 msgid "Fatal Error: Unhandled Exception!"
-msgstr "Schwerwiegender Fehler: Unbehandelte Ausnahme!"
+msgstr "Cyfeiliorn marwol: Eithriad Dim Trafod!"
 
 #: src/inc/CfpExceptionDialog.php:53
 msgid "An unhandled error has occured whilst operating this application and the application will now be terminated."
-msgstr "Während der Ausführung dieser Anwendung ist ein schwerwiegender Fehler aufgetreten und die Anwendung wird nun beendet."
+msgstr "Mae cyfeiliorn dim trafod damweinio yn dienyddio y rhaglen ac mae y rhaglen mynd i terfynu rwan."
 
 #: src/inc/CfpExceptionDialog.php:55
 msgid "Details:"
-msgstr "Details:"
+msgstr "Manylion:"
 
 #: src/inc/CfpExceptionDialog.php:60
 msgid "Type:"
-msgstr "Typ:"
+msgstr "Math:"
 
 #: src/inc/CfpExceptionDialog.php:61
 msgid "Code:"
-msgstr "Code:"
+msgstr "Cod:"
 
 #: src/inc/CfpExceptionDialog.php:62
 msgid "File:"
-msgstr "Datei:"
+msgstr "Ffeil:"
 
 #: src/inc/CfpExceptionDialog.php:63
+#, fuzzy
 msgid "Line:"
-msgstr "Zeile:"
+msgstr "Lein:"
 
 #: src/inc/CfpExceptionDialog.php:64
 msgid "Version:"
-msgstr "Version:"
+msgstr "Fersiwn:"
 
 #: src/inc/CfpExceptionDialog.php:65
 msgid "Stack Trace:"
-msgstr "Stapelverfolgung:"
+msgstr "Tres Tas:"
 
 #: src/inc/CfpMainWindow.php:109
 #: src/inc/CfpMainWindow.php:485
 msgid "Ready"
-msgstr "Bereit"
+msgstr "Parod"
 
 #: src/inc/CfpMainWindow.php:220
 msgid "Source code:"
-msgstr "Quellcode:"
+msgstr "Cod ffynhonnell:"
 
 #: src/inc/CfpMainWindow.php:237
 msgid "Result:"
-msgstr "Ergebnis:"
+msgstr "Canlyniad:"
 
 #: src/inc/CfpMainWindow.php:285
 #: src/inc/CfpWebInterface.php:218
 msgid "About"
-msgstr "Über"
+msgstr "Ynghylch"
 
 #: src/inc/CfpMainWindow.php:288
 msgid "Show more information about this application"
-msgstr "Zeige mehr Informationen über diese Anwendung an"
+msgstr "Dangor mwy o wybodaeth am y rhaglen"
 
 #: src/inc/CfpMainWindow.php:295
 #: src/inc/CfpPreferencesDialog.php:135
 msgid "Preferences"
-msgstr "Einstellungen"
+msgstr "Hoffterau"
 
 #: src/inc/CfpMainWindow.php:298
 msgid "Edit this application's preferences"
-msgstr "Bearbeite die Anwendungseinstellungen"
+msgstr "Golygu'r hoffterau rhaglen"
 
 #: src/inc/CfpMainWindow.php:309
 msgid "Render Live"
-msgstr "Live Rendern"
+msgstr "Llunio Byw"
 
 #: src/inc/CfpMainWindow.php:313
 msgid "Switch between live rendering and expected-display mode"
-msgstr "Schalte zwischen Live Rendering und Darstellung im Erwartete-Ausgabe Modus um"
+msgstr "Togl delw datgan byw ac delw dangos disgwyliedig"
 
 #: src/inc/CfpMainWindow.php:324
 #: src/inc/CfpWebInterface.php:206
 msgid "Next"
-msgstr "Nächstes"
+msgstr "Nesaf"
 
 #: src/inc/CfpMainWindow.php:326
 msgid "Display the next example"
-msgstr "Zeige das nächste Beispiel an"
+msgstr "Amlygu'r esiampl nesaf"
 
 #: src/inc/CfpMainWindow.php:334
 #: src/inc/CfpWebInterface.php:196
 msgid "Previous"
-msgstr "Vorheriges"
+msgstr "Cynt"
 
 #: src/inc/CfpMainWindow.php:336
 msgid "Display the previous example"
-msgstr "Zeige das vorherige Beispiel an"
+msgstr "Amlygu'r esiampl cynt"
 
 #: src/inc/CfpMainWindow.php:475
 msgid "New preferences have been applied..."
-msgstr "Neue Einstellungen wurden übernommen.."
+msgstr "Mae'r blaenoriaethau crai cymwysedig..."
 
 #: src/inc/CfpMainWindow.php:477
 msgid "New preferenced have been discarded..."
-msgstr "Neue Einstellungen wurden verworfen..."
+msgstr "Mae'r blaenoriaethau crai gwaredig..."
 
 #: src/inc/CfpPreferencesDialog.php:152
 msgid "Save"
-msgstr "Speichern"
+msgstr "Cadw"
 
 #: src/inc/CfpPreferencesDialog.php:153
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr "Canslo"
 
 #: src/inc/CfpPreferencesDialog.php:177
+#, fuzzy
 msgid "Display"
-msgstr "Anzeige"
+msgstr "Dangos"
 
 #: src/inc/CfpPreferencesDialog.php:203
 msgid "Tab position:"
-msgstr "Tabulator-Positionierung:"
+msgstr "Safle y tab:"
 
 #: src/inc/CfpPreferencesDialog.php:208
 msgid "Left"
-msgstr "Links"
+msgstr "Chwith"
 
 #: src/inc/CfpPreferencesDialog.php:209
 msgid "Right"
-msgstr "Rechts"
+msgstr "Cywir"
 
 #: src/inc/CfpPreferencesDialog.php:210
 msgid "Top"
-msgstr "Oben"
+msgstr "Top"
 
 #: src/inc/CfpPreferencesDialog.php:211
 msgid "Bottom"
-msgstr "Unten"
+msgstr "Gwaelod"
 
 #: src/inc/CfpPreferencesDialog.php:226
 msgid "Show toolbar:"
-msgstr "Toolbar anzeigen:"
+msgstr "Amlygu'r bar offer:"
 
 #: src/inc/CfpPreferencesDialog.php:230
 #: src/inc/CfpPreferencesDialog.php:286
 msgid "Yes"
-msgstr "Ja"
+msgstr "Ia"
 
 #: src/inc/CfpPreferencesDialog.php:233
 #: src/inc/CfpPreferencesDialog.php:289
 msgid "No"
-msgstr "Nein"
+msgstr "Na"
 
 #: src/inc/CfpPreferencesDialog.php:259
 msgid "Toolbar style:"
-msgstr "Toolbar Stil:"
+msgstr "Arddull bar offer:"
 
 #: src/inc/CfpPreferencesDialog.php:264
 msgid "Icon only"
-msgstr "Nur Icon"
+msgstr "Eicon yn unig"
 
 #: src/inc/CfpPreferencesDialog.php:265
 msgid "Text only"
-msgstr "Nur Text"
+msgstr "Testun yn unig"
 
 #: src/inc/CfpPreferencesDialog.php:266
 msgid "Icon above text"
-msgstr "Icon über Text"
+msgstr "Eicon uwch testun"
 
 #: src/inc/CfpPreferencesDialog.php:267
 msgid "Icon left of text"
-msgstr "Icon links von Text"
+msgstr "Eicon chwith o'r testun"
 
 #: src/inc/CfpPreferencesDialog.php:337
 msgid "Paths"
-msgstr "Pfade"
+msgstr "Llwybrau"
 
 #: src/inc/CfpPreferencesDialog.php:344
+#, fuzzy
 msgid "<b>Caution:</b> It is recommended that you do not modify the settings on this page unless you know how this will affect the working of this application. Should you encounter any problems you can always manually  edit the file <tt>cfp-conf.ini</tt> in the application's main directory."
-msgstr "<b>Vorsicht:</b> Es wird empfohlen die Einstellungen auf dieser Seite nicht zu ändern sofern Sie nicht mit den Effekten dieser Einstellungen auf die Arbeitsweise der Anwendung vertraut sind. Sollten Sie dennoch Schwierigkeiten haben können Sie die Datei <tt>cfp-conf.ini</tt> im Anwendungsverzeichnis von Hand bearbeiten."
+msgstr "<b>Gochelgarwch:</b> It is recommended that you do not modify the settings on this page unless you know how this will affect the working of this application. Should you encounter any problems you can always manually  edit the file <tt>cfp-conf.ini</tt> in the application's main directory."
 
 #: src/inc/CfpPreferencesDialog.php:371
 msgid "Application resources:"
-msgstr "Anwendungsresourcen:"
+msgstr "Adnoddau rhaglen:"
 
 #: src/inc/CfpPreferencesDialog.php:375
 msgid "Select path to application resources"
-msgstr "Wähle Pfad zu Anwendungsresourcen"
+msgstr "Detholwch llwybr am yr adnoddau rhaglen"
 
 #: src/inc/CfpPreferencesDialog.php:394
 msgid "Sample index:"
-msgstr "Beispiel-Verzeichnis:"
+msgstr "Mynegai samplau:"
 
 #: src/inc/CfpPreferencesDialog.php:398
 msgid "Select path to sample index"
-msgstr "Wähle Pfad zum Beispiel-Verzeichnis"
+msgstr "Detholwch llwybr am y mynegai samplau"
 
 #: src/inc/CfpPreferencesDialog.php:405
 msgid "XML Document (*.xml)"
-msgstr "XML Dokument (*.xml)"
+msgstr "Dogfen XML (*.xml)"
 
 #: src/inc/CfpPreferencesDialog.php:410
 msgid "All Files (*.*)"
-msgstr "Alle Dateien (*.*)"
+msgstr "Pob o Feiliau (*.*)"
 
 #: src/inc/CfpWebInterface.php:366
 msgid "Error 404: File Not Found."
-msgstr "Fehler 404: Datei Nicht Gefunden."
+msgstr "Gwall 404: Ffeil Heb Ei Chanfod"
 
 #: src/inc/CfpWebInterface.php:367
 msgid "The requested URI could not be found."
-msgstr "Die angefragte URI konnte nicht gefunden werden."
+msgstr ""
 
 #: src/inc/CfpWebInterface.php:369
 msgid "URI Requested:"
-msgstr "Angefragte URI:"
+msgstr ""
 
 #: src/inc/CfpWebInterface.php:371
 msgid "Referer:"
-msgstr "Referer:"
+msgstr ""
 
 #: src/inc/CfpWebInterface.php:373
 msgid "Host:"
-msgstr "Host:"
+msgstr "Gwesteiwr"
 
 #: src/inc/CfpWebInterface.php:375
 msgid "User-Agent:"
-msgstr "Endsystemteil:"
+msgstr "Asiant Defnyddiwr:"
 
 #: src/inc/CfpWebInterface.php:402
 msgid "Live Image:"
-msgstr "Live Grafik:"
+msgstr "Llun Byw:"
 
 #: src/inc/CfpWebInterface.php:403
 msgid "Live Image"
-msgstr "Live Grafik"
+msgstr "Llun Byw"
 
 #: src/inc/CfpWebInterface.php:405
 msgid "Expected Output:"
-msgstr "Erwartete Ausgabe:"
+msgstr "Allbwn disgwyliedig:"
 
 #: src/inc/CfpWebInterface.php:406
 msgid "Expected Output"
-msgstr "Erwartete Ausgabe:"
+msgstr "Allbwn disgwyliedig"
 
 #: src/inc/CfpWebInterface.php:439
 msgid "License Terms:"
-msgstr "Lizenzbedingungen:"
-
+msgstr "Amodau Trwydded:"
