@@ -1,0 +1,285 @@
+# #
+# Spanish pot file for CairoForPHP
+#
+# This is the Spanish (es) translation of the pot file for CairoForPHP.
+#
+# When translating this file please remember to change the heading of this
+# description to "LOCALE pot file for CairoForPHP", LOCALE being the locale you
+# are translating to. Also add your name in a new @author line below and change
+# the meta Last-Translator and PO-Revision-Date to reflect your work (as far as
+# the program you are using will not do this for you).
+#
+# PHP version 5.3.x
+#
+# LICENSE: This source file is subject to version 3.01 of the PHP license
+# that is available through the world-wide-web at the following URI:
+# http://www.php.net/license/3_01.txt.  If you did not receive a copy of
+# the PHP License and are unable to obtain it through the web, please
+# send a note to license@php.net so we can mail you a copy immediately.
+#
+# @package    CairoForPHP
+# @author     Florian F Freeman <florian@phpws.org>
+# @copyright  2009 Florian F Freeman
+# @license    http://www.php.net/license/3_01.txt  PHP License 3.01
+# @version    CVS: $Id:$
+# @link       http://gtk.php.net
+# @since      1.0.0
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CairoForPHP 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-05 18:14+America/Detroit\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Florian F Freeman <florian@phpws.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Basepath: ../\n"
+
+#: src/main.php:213
+msgid "Application loading complete..."
+msgstr "El programa cargado ha sido completado..."
+
+#: src/inc/CfpExceptionDialog.php:43
+#: src/inc/CfpExceptionDialog.php:52
+msgid "Fatal Error: Unhandled Exception!"
+msgstr "Error Fatal: Excepción No Capturada!"
+
+#: src/inc/CfpExceptionDialog.php:53
+msgid "An unhandled error has occured whilst operating this application and the application will now be terminated."
+msgstr "En el curso de la operación de este programa ha emergido un error no capturado y el programa será terminado."
+
+#: src/inc/CfpExceptionDialog.php:55
+msgid "Details:"
+msgstr "Detalles:"
+
+#: src/inc/CfpExceptionDialog.php:60
+msgid "Type:"
+msgstr "Tipo:"
+
+#: src/inc/CfpExceptionDialog.php:61
+msgid "Code:"
+msgstr "Código:"
+
+#: src/inc/CfpExceptionDialog.php:62
+msgid "File:"
+msgstr "Fichero:"
+
+#: src/inc/CfpExceptionDialog.php:63
+msgid "Line:"
+msgstr "Línea:"
+
+#: src/inc/CfpExceptionDialog.php:64
+msgid "Version:"
+msgstr "Versión:"
+
+#: src/inc/CfpExceptionDialog.php:65
+msgid "Stack Trace:"
+msgstr "Seguimiento desde el origen:"
+
+#: src/inc/CfpMainWindow.php:109
+#: src/inc/CfpMainWindow.php:485
+msgid "Ready"
+msgstr "Listo"
+
+#: src/inc/CfpMainWindow.php:220
+msgid "Source code:"
+msgstr "Código fuente:"
+
+#: src/inc/CfpMainWindow.php:237
+msgid "Result:"
+msgstr "Resultado:"
+
+#: src/inc/CfpMainWindow.php:285
+#: src/inc/CfpWebInterface.php:216
+msgid "About"
+msgstr "Información"
+
+#: src/inc/CfpMainWindow.php:288
+msgid "Show more information about this application"
+msgstr "Mostrar más información de este programa"
+
+#: src/inc/CfpMainWindow.php:295
+#: src/inc/CfpPreferencesDialog.php:135
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: src/inc/CfpMainWindow.php:298
+msgid "Edit this application's preferences"
+msgstr "Cambiar las preferencias del programa"
+
+#: src/inc/CfpMainWindow.php:309
+msgid "Render Live"
+msgstr "Renderizar En Directo"
+
+#: src/inc/CfpMainWindow.php:313
+msgid "Switch between live rendering and expected-display mode"
+msgstr "Cambiar para renderizar en directo o mostrar la gráfica en espera"
+
+#: src/inc/CfpMainWindow.php:324
+#: src/inc/CfpWebInterface.php:205
+msgid "Next"
+msgstr "Próximo"
+
+#: src/inc/CfpMainWindow.php:326
+msgid "Display the next example"
+msgstr "Mostrar el próximo ejemplo"
+
+#: src/inc/CfpMainWindow.php:334
+#: src/inc/CfpWebInterface.php:196
+msgid "Previous"
+msgstr "Previo"
+
+#: src/inc/CfpMainWindow.php:336
+msgid "Display the previous example"
+msgstr "Mostrar el previo ejemplo"
+
+#: src/inc/CfpMainWindow.php:475
+msgid "New preferences have been applied..."
+msgstr "La configuración reciente se ha guardado..."
+
+#: src/inc/CfpMainWindow.php:477
+msgid "New preferenced have been discarded..."
+msgstr "La configuración reciente se ha descartado..."
+
+#: src/inc/CfpPreferencesDialog.php:152
+msgid "Save"
+msgstr "Guardar"
+
+#: src/inc/CfpPreferencesDialog.php:153
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/inc/CfpPreferencesDialog.php:177
+msgid "Display"
+msgstr "Visualización"
+
+#: src/inc/CfpPreferencesDialog.php:203
+msgid "Tab position:"
+msgstr "Posición de las pestañas:"
+
+#: src/inc/CfpPreferencesDialog.php:208
+msgid "Left"
+msgstr "A la izquierda"
+
+#: src/inc/CfpPreferencesDialog.php:209
+msgid "Right"
+msgstr "A la derecha"
+
+#: src/inc/CfpPreferencesDialog.php:210
+msgid "Top"
+msgstr "Arriba"
+
+#: src/inc/CfpPreferencesDialog.php:211
+msgid "Bottom"
+msgstr "Abajo"
+
+#: src/inc/CfpPreferencesDialog.php:226
+msgid "Show toolbar:"
+msgstr "Visualizar la barra de herramientas:"
+
+#: src/inc/CfpPreferencesDialog.php:230
+#: src/inc/CfpPreferencesDialog.php:286
+msgid "Yes"
+msgstr "Si"
+
+#: src/inc/CfpPreferencesDialog.php:233
+#: src/inc/CfpPreferencesDialog.php:289
+msgid "No"
+msgstr "No"
+
+#: src/inc/CfpPreferencesDialog.php:259
+msgid "Toolbar style:"
+msgstr "Estilo de la barra de herramientas:"
+
+#: src/inc/CfpPreferencesDialog.php:264
+msgid "Icon only"
+msgstr "Solo iconos"
+
+#: src/inc/CfpPreferencesDialog.php:265
+msgid "Text only"
+msgstr "Solo texto"
+
+#: src/inc/CfpPreferencesDialog.php:266
+msgid "Icon above text"
+msgstr "Icono encima del texto"
+
+#: src/inc/CfpPreferencesDialog.php:267
+msgid "Icon left of text"
+msgstr "Icono a la izquierda del texto"
+
+#: src/inc/CfpPreferencesDialog.php:337
+msgid "Paths"
+msgstr "Rutas"
+
+#: src/inc/CfpPreferencesDialog.php:344
+msgid "<b>Caution:</b> It is recommended that you do not modify the settings on this page unless you know how this will affect the working of this application. Should you encounter any problems you can always manually  edit the file <tt>cfp-conf.ini</tt> in the application's main directory."
+msgstr "<b>Precaución:</b> Es recomendable que no cambie las opciones de esta parte del programa a no ser que sepa como afectará al funcionamiento del mismo. En caso de que tuviera problemas podría editar a mano el fichero <tt>cfp-conf.ini</tt> en el directorio del programa."
+
+#: src/inc/CfpPreferencesDialog.php:371
+msgid "Application resources:"
+msgstr "Recursos del programa:"
+
+#: src/inc/CfpPreferencesDialog.php:375
+msgid "Select path to application resources"
+msgstr "Seleccione la ruta para los recursos del programa"
+
+#: src/inc/CfpPreferencesDialog.php:394
+msgid "Sample index:"
+msgstr "Índice de los ejemplos:"
+
+#: src/inc/CfpPreferencesDialog.php:398
+msgid "Select path to sample index"
+msgstr "Seleccione la ruta para el índice de los ejemplos"
+
+#: src/inc/CfpPreferencesDialog.php:405
+msgid "XML Document (*.xml)"
+msgstr "Documentos de XML (*.xml)"
+
+#: src/inc/CfpPreferencesDialog.php:410
+msgid "All Files (*.*)"
+msgstr "Todos los ficheros (*.*)"
+
+#: src/inc/CfpWebInterface.php:362
+msgid "Error 404: File Not Found."
+msgstr "Error 404: El fichero no se ha encontrado."
+
+#: src/inc/CfpWebInterface.php:363
+msgid "The requested URI could not be found."
+msgstr "La URI demandada no se ha localizado en este sistema."
+
+#: src/inc/CfpWebInterface.php:365
+msgid "URI Requested:"
+msgstr "URI Demandada:"
+
+#: src/inc/CfpWebInterface.php:367
+msgid "Referer:"
+msgstr "Referer:"
+
+#: src/inc/CfpWebInterface.php:369
+msgid "Host:"
+msgstr "Host:"
+
+#: src/inc/CfpWebInterface.php:371
+msgid "User-Agent:"
+msgstr "Navegador:"
+
+#: src/inc/CfpWebInterface.php:398
+msgid "Live Image:"
+msgstr "Gráfico Renderizado:"
+
+#: src/inc/CfpWebInterface.php:400
+msgid "Expected Output:"
+msgstr "Resultado Esperado:"
+
+#: src/inc/CfpWebInterface.php:401
+msgid "Expected Output"
+msgstr "Resultado Esperado"
+
+#: src/inc/CfpWebInterface.php:433
+msgid "License Terms:"
+msgstr "Condiciones de la Licencia:"
+

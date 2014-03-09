@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+    <code>eo</code>
+    <name>Esperanto</name>
+    <endonym>Esperanto</endonym>
+    <encoding>utf-8</encoding>
+    <language>
+        <code>eo</code>
+        <name>Esperanto</name>
+        <endonym>Esperanto</endonym>
+    </language>
+    <!-- (Locale is not region specific...)
+    <region>
+        <code>..</code>
+        <name>...</name>
+        <endonym>...</endonym>
+    </region>
+    -->
+    <formatting>
+        <date>d.m.Y</date>
+        <time>H:i</time>
+        <datetime>d.m.Y H:i:s T</datetime>
+        <number>
+            <decimals>2</decimals>
+            <dec-point>.</dec-point>
+            <thousands-sep>'</thousands-sep>
+        </number>
+    </formatting>
+</locale>

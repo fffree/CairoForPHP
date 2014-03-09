@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Cairo For PHP xml shema definition for sample index
+
+  This XML file contains a xml shema definition (XSD) for the sample index xml
+  and the pango markup syntax used in the descriptions. It is being used to
+  validate the sample index before reading, so to avoid program failiure due to
+  corrupt data sets.
+
+  LICENSE: This source file is subject to version 3.01 of the PHP license
+  that is available through the world-wide-web at the following URI:
+  http://www.php.net/license/3_01.txt.  If you did not receive a copy of
+  the PHP License and are unable to obtain it through the web, please
+  send a note to license@php.net so we can mail you a copy immediately.
+
+  @package    CairoForPHP
+  @subpackage Resources
+  @author     Florian F Freeman <florian@phpws.org>
+  @copyright  2009 Florian F Freeman
+  @license    http://www.php.net/license/3_01.txt  PHP License 3.01
+  @version    CVS: $Id:$
+  @link       http://gtk.php.net
+  @link       http://library.gnome.org/devel/pango/stable/PangoMarkupFormat.html
+  @since      1.0.0
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Sample Index Format -->
+  <xs:element name="samples">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sample" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType mixed="true">
+            <xs:complexContent mixed="true">
+              <xs:extension base="pangoMarkup">
+                <xs:attribute name="name" type="xs:token" use="required" />
+                <xs:attribute name="title" type="xs:token" />
+              </xs:extension>
+            </xs:complexContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Pango Markup format -->
+  <xs:complexType name="pangoMarkup" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+
+      <!-- Convinience Tags -->
+      <xs:element name="br" />
+      <xs:element name="b"     type="pangoMarkup" />
+      <xs:element name="big"   type="pangoMarkup" />
+      <xs:element name="i"     type="pangoMarkup" />
+      <xs:element name="s"     type="pangoMarkup" />
+      <xs:element name="sub"   type="pangoMarkup" />
+      <xs:element name="sup"   type="pangoMarkup" />
+      <xs:element name="small" type="pangoMarkup" />
+      <xs:element name="tt"    type="pangoMarkup" />
+      <xs:element name="u"     type="pangoMarkup" />
+
+      <!-- Span Tag -->
+      <xs:element name="span">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="pangoMarkup">
+              <xs:attribute name="font"                type="xs:string" />
+              <xs:attribute name="font_desc"           type="xs:string" />
+              <xs:attribute name="font_family"         type="xs:token" />
+              <xs:attribute name="face"                type="xs:token" />
+              <xs:attribute name="font_size"           type="pangoTypeFontSize" />
+              <xs:attribute name="size"                type="pangoTypeFontSize" />
+              <xs:attribute name="font_style"          type="pangoTypeFontStyle" />
+              <xs:attribute name="style"               type="pangoTypeFontStyle" />
+              <xs:attribute name="font_weight"         type="pangoTypeFontWeight" />
+              <xs:attribute name="weight"              type="pangoTypeFontWeight" />
+              <xs:attribute name="font_variant"        type="pangoTypeFontVariant" />
+              <xs:attribute name="variant"             type="pangoTypeFontVariant" />
+              <xs:attribute name="font_stretch"        type="pangoTypeFontStretch" />
+              <xs:attribute name="stretch"             type="pangoTypeFontStretch" />
+              <xs:attribute name="foreground"          type="pangoTypeColor" />
+              <xs:attribute name="fgcolor"             type="pangoTypeColor" />
+              <xs:attribute name="color"               type="pangoTypeColor" />
+              <xs:attribute name="background"          type="pangoTypeColor" />
+              <xs:attribute name="bgcolor"             type="pangoTypeColor" />
+              <xs:attribute name="underline"           type="pangoTypeUnderline" />
+              <xs:attribute name="underline_color"     type="pangoTypeColor" />
+              <xs:attribute name="rise"                type="xs:decimal" />
+              <xs:attribute name="strikethrough"       type="xs:boolean" />
+              <xs:attribute name="strikethrough_color" type="pangoTypeColor" />
+              <xs:attribute name="fallback"            type="xs:boolean" />
+              <xs:attribute name="lang"                type="xs:string" />
+              <xs:attribute name="letter_spacing"      type="xs:decimal" />
+              <xs:attribute name="gravity"             type="pangoTypeGravity" />
+              <xs:attribute name="gravity_hint"        type="pangoTypeGravityHint" />
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:choice>
+  </xs:complexType>
+
+  <!-- Pango Span Attribute Types -->
+  <xs:simpleType name="pangoTypeFontSize">
+    <xs:restriction base="xs:token">
+      <xs:pattern value="(xx\-|x\-)?(small|large)|medium|larger|smaller|([1-9][0-9]*)" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="pangoTypeFontStyle">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="normal" />
+      <xs:enumeration value="oblique" />
+      <xs:enumeration value="italic" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="pangoTypeFontWeight">
+    <xs:restriction base="xs:token">
+      <xs:pattern value="(ultra)?light|normal|(ultra)?bold|heavy|([1-9][0-9]*)" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="pangoTypeFontVariant">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="normal" />
+      <xs:enumeration value="smallcaps" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="pangoTypeFontStretch">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="ultracondensed" />
+      <xs:enumeration value="extracondensed" />
+      <xs:enumeration value="condensed" />
+      <xs:enumeration value="semicondensed" />
+      <xs:enumeration value="normal" />
+      <xs:enumeration value="semiexpanded" />
+      <xs:enumeration value="expanded" />
+      <xs:enumeration value="extraexpanded" />
+      <xs:enumeration value="ultraexpanded" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="pangoTypeColor">
+    <xs:restriction base="xs:token">
+      <xs:pattern value="#[0-9A-Fa-f]{6}" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="pangoTypeUnderline">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="none" />
+      <xs:enumeration value="single" />
+      <xs:enumeration value="double" />
+      <xs:enumeration value="low" />
+      <xs:enumeration value="error" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="pangoTypeGravity">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="south" />
+      <xs:enumeration value="east" />
+      <xs:enumeration value="north" />
+      <xs:enumeration value="west" />
+      <xs:enumeration value="auto" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="pangoTypeGravityHint">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="natural" />
+      <xs:enumeration value="strong" />
+      <xs:enumeration value="line" />
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

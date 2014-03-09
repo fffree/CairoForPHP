@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+    <code>ca</code>
+    <name>Catalan</name>
+    <endonym>Català</endonym>
+    <encoding>utf-8</encoding>
+    <language>
+        <code>ca</code>
+        <name>Catalan</name>
+        <endonym>Català</endonym>
+    </language>
+    <!-- (Locale is not region specific...)
+    <region>
+        <code>ct</code>
+        <name>Catalonia</name>
+        <endonym>Catalunya</endonym>
+    </region>
+    -->
+    <formatting>
+        <date>j.n.y</date>
+        <time>G:i</time>
+        <datetime>d.m.Y H:i:s T</datetime>
+        <number>
+            <decimals>2</decimals>
+            <dec-point>.</dec-point>
+            <thousands-sep> </thousands-sep>
+        </number>
+    </formatting>
+</locale>

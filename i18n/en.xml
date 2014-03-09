@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+    <code>en</code>
+    <name>English</name>
+    <endonym>English</endonym>
+    <encoding>utf-8</encoding>
+    <language>
+        <code>en</code>
+        <name>English</name>
+        <endonym>English</endonym>
+    </language>
+    <!-- (Locale is not region specific...)
+    <region>
+        <code>gb</code>
+        <name>Great Britain</name>
+        <endonym>Great Britain</endonym>
+    </region>
+    -->
+    <formatting>
+        <date>j/n/y</date>
+        <time>g:ia</time>
+        <datetime>d.m.Y H:i:s T</datetime>
+        <number>
+            <decimals>2</decimals>
+            <dec-point>,</dec-point>
+            <thousands-sep> </thousands-sep>
+        </number>
+    </formatting>
+</locale>
