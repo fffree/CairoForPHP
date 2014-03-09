@@ -15,7 +15,7 @@
  * @package    CairoForPHP
  * @subpackage WebInterface
  * @author     Florian F Freeman <florian@phpws.org>
- * @copyright  2009 Florian F Freeman
+ * @copyright  2009-2010 Florian F Freeman
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
  * @version    CVS: $Id:$
  * @link       http://gtk.php.net
@@ -314,7 +314,7 @@ class CfpWebInterface {
     public function pageImage() {
         $found = false;
         if((!empty($this->sampleId) || $this->imageMod == self::IMAGE_REQUEST_STOCK) && !empty($this->imageMod)) {
-            $this->writeHeader('Content-Type: text/plain');
+            $this->writeHeader('Content-Type: image/png');
             switch($this->imageMod) {
                 case self::IMAGE_REQUEST_LIVE:
                     $this->writeHeader('Cache-Control: no-cache, must-revalidate');

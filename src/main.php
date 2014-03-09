@@ -16,7 +16,7 @@
  *
  * @package    CairoForPHP
  * @author     Florian F Freeman <florian@phpws.org>
- * @copyright  2009 Florian F Freeman
+ * @copyright  2009-2010 Florian F Freeman
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
  * @version    CVS: $Id:$
  * @link       http://gtk.php.net
@@ -53,7 +53,7 @@ if(PHP_SAPI == 'cli') {
 /**
  * Currently used version of the application
  */
-define('CFP_VERSION',  (string) '1.0.0');
+define('CFP_VERSION',  (string) '1.0.2');
 /**
  * Installation path of the application
  */
@@ -163,7 +163,7 @@ $GLOBALS['CFP_CONF'] = $CFP_CONF;
 // Internationalisation Setup
 //
 
-//$locale = 'de';
+//$locale = 'cy';
 //setlocale(LC_ALL, $locale);
 //putenv('LANG='.$locale);
 //putenv('LANGUAGE='.$locale);

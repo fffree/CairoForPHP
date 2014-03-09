@@ -15,7 +15,7 @@
  * @package    CairoForPHP
  * @subpackage Utilities
  * @author     Florian F Freeman <florian@phpws.org>
- * @copyright  2009 Florian F Freeman
+ * @copyright  2009-2010 Florian F Freeman
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
  * @version    CVS: $Id:$
  * @link       http://gtk.php.net
@@ -105,31 +105,10 @@ function tarballdir($path) {
         trigger_error("The directory $path does not exist.", E_USER_WARNING);
         return false;
     }
-
-    //Test for PEAR Archive_Tar
-    @include_once('Archive/Tar.php');
-    if(class_exists('Archive_Tar')) {
-        //Using Archive_Tar
-        return false;
-    } else {
-        $output = array();
-        $return_code = 0;
-        @exec('tar --help', $output, $return_code);
-        if($return_code == 0) {
-            $basedir = dirname($path);
-            $old_cwd = getcwd();
-            chdir($basedir);
-            $source = basename($path);
-            $dest = $source.'.tar';
-            $command = "tar -cvf \"$dest\" \"$source\"";
-            $return_code = shell_exec($command);
-            chdir($old_cwd);
-            if($return_code == 0) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-    }
+    
+    //Use the phar extension to create tar archive
+    $archive = new PharData($path.'.tar');
+    $archive->buildFromDirectory($path);
+    return true;
 }
 ?>
