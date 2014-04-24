@@ -16,11 +16,10 @@
  *
  * @package    CairoForPHP
  * @subpackage Utilities
- * @author     Florian F Freeman <florian@phpws.org>
- * @copyright  2009 Florian F Freeman
+ * @author     Florian Breit <mail@florian.me.uk>
+ * @copyright  2009-2014 Florian Breit
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
- * @version    CVS: $Id:$
- * @link       http://gtk.php.net
+ * @link       http://pecl.php.net/cairo
  * @since      1.0.0
  */
 //Auxiliary functions

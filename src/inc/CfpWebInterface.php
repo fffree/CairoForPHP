@@ -14,11 +14,10 @@
  *
  * @package    CairoForPHP
  * @subpackage WebInterface
- * @author     Florian F Freeman <florian@phpws.org>
- * @copyright  2009-2010 Florian F Freeman
+ * @author     Florian Breit <mail@florian.me.uk>
+ * @copyright  2009-2014 Florian Breit
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
- * @version    CVS: $Id:$
- * @link       http://gtk.php.net
+ * @link       http://pecl.php.net/cairo
  * @since      1.0.0
  */
 
@@ -191,8 +190,8 @@ class CfpWebInterface {
         //Previous button
         $items_tpl->putArray(
             array(
-                'target' => '?p='.self::PAGE_TYPE_SAMPLE.'&s='.$this->sampleId.'&f=p',
-                'image_path' => '?p='.self::PAGE_TYPE_IMAGE.'&m=s&n=prev',
+                'target' => '?p='.self::PAGE_TYPE_SAMPLE.'&amp;s='.$this->sampleId.'&amp;f=p',
+                'image_path' => '?p='.self::PAGE_TYPE_IMAGE.'&amp;m=s&amp;n=prev',
                 'label' => _('Previous')
             ),
             false
@@ -201,8 +200,8 @@ class CfpWebInterface {
         //Next button
         $items_tpl->putArray(
             array(
-                'target' => '?p='.self::PAGE_TYPE_SAMPLE.'&s='.$this->sampleId.'&f=n',
-                'image_path' => '?p='.self::PAGE_TYPE_IMAGE.'&m=s&n=next',
+                'target' => '?p='.self::PAGE_TYPE_SAMPLE.'&amp;s='.$this->sampleId.'&amp;f=n',
+                'image_path' => '?p='.self::PAGE_TYPE_IMAGE.'&amp;m=s&amp;n=next',
                 'label' => _('Next')
             ),
             false
@@ -214,7 +213,7 @@ class CfpWebInterface {
         $items_tpl->putArray(
             array(
                 'target' => '?p='.self::PAGE_TYPE_ABOUT,
-                'image_path' => '?p='.self::PAGE_TYPE_IMAGE.'&m=s&n=about',
+                'image_path' => '?p='.self::PAGE_TYPE_IMAGE.'&amp;m=s&amp;n=about',
                 'label' => _('About')
             ),
             false
@@ -242,8 +241,8 @@ class CfpWebInterface {
             }
             $items_tpl->putArray(
                 array(
-                    'target' => '?p='.self::PAGE_TYPE_SAMPLE.'&s='.$sname,
-                    'title' => $sdata->title
+                    'target' => '?p='.self::PAGE_TYPE_SAMPLE.'&amp;s='.$sname,
+                    'title' => htmlentities($sdata->title)
                 ),
                 false
             );
@@ -260,7 +259,7 @@ class CfpWebInterface {
         try {
             $this->writeHeader('HTTP/1.1 200 OK');
             $this->writeHeader('X-Powered-By: Cairo for PHP/'.CFP_VERSION);
-            $this->writeHeader('X-Copyright: 2009 Florian F Freeman');
+            $this->writeHeader('X-Copyright: 2009-2014 Florian Breit');
             $this->writeHeader('X-License: PHP License 3.01: http://www.php.net/license/3_01.txt');
         } catch(Exception $e) {
         }
@@ -401,10 +400,10 @@ class CfpWebInterface {
             array(
                 'live_image_title' => _('Live Image:'),
                 'live_image_desc' => _('Live Image'),
-                'live_image_path' => '?p='.self::PAGE_TYPE_IMAGE.'&s='.$this->sampleId.'&m=l',
+                'live_image_path' => '?p='.self::PAGE_TYPE_IMAGE.'&amp;s='.$this->sampleId.'&amp;m=l',
                 'expected_image_title' => _('Expected Output:'),
                 'expected_image_desc' => _('Expected Output'),
-                'expected_image_path' => '?p='.self::PAGE_TYPE_IMAGE.'&s='.$this->sampleId.'&m=e'
+                'expected_image_path' => '?p='.self::PAGE_TYPE_IMAGE.'&amp;s='.$this->sampleId.'&amp;m=e'
             ),
             false
         );
@@ -426,7 +425,7 @@ class CfpWebInterface {
                 'version' => CFP_VERSION,
                 'copyright' => $GLOBALS['CFP_STRINGS']['APP_COPY'],
                 'website_uri' => $GLOBALS['CFP_STRINGS']['APP_WEBSITE'],
-                'logo_uri' => '?p='.self::PAGE_TYPE_IMAGE.'&m=s&n=about'
+                'logo_uri' => '?p='.self::PAGE_TYPE_IMAGE.'&amp;m=s&amp;n=about'
             )
         );
 

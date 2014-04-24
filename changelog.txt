@@ -1,4 +1,22 @@
+VERSION 1.0.3
+
+Almost all files:
+
+- Updated @author, @copyright, @link
+- Removed @version
+
+./src/main.php
+
+- Updated $CFP_STRINGS['APP_COPY'] with current copyright
+
+./src/inc/CfpWebInterface.php
+
+- Fixed links using an ampersand without encoding: & -> &amp;
+- Added htmlentities() for link titles
+
+
 VERSION 1.0.2
+
 ./src/inc/CfpWebInferface.php
 
 - Fixed CfpWebInterface::pageImage to use "Content-Type: image/png" as header
@@ -10,6 +28,7 @@ VERSION 1.0.2
 ./utils/utilFuncs.php
 
 - tarballdir() is now using PharData to create the tarball archives
+
 
 VERSION 1.0.1
 

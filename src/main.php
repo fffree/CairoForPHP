@@ -15,11 +15,10 @@
  * send a note to license@php.net so we can mail you a copy immediately.
  *
  * @package    CairoForPHP
- * @author     Florian F Freeman <florian@phpws.org>
- * @copyright  2009-2010 Florian F Freeman
+ * @author     Florian Breit <mail@florian.me.uk>
+ * @copyright  2009-2014 Florian Breit
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
- * @version    CVS: $Id:$
- * @link       http://gtk.php.net
+ * @link       http://pecl.php.net/cairo
  * @see        CfpMainWindow
  * @since      1.0.0
  */
@@ -53,7 +52,7 @@ if(PHP_SAPI == 'cli') {
 /**
  * Currently used version of the application
  */
-define('CFP_VERSION',  (string) '1.0.2');
+define('CFP_VERSION',  (string) '1.0.3');
 /**
  * Installation path of the application
  */
@@ -73,7 +72,7 @@ $CFP_STRINGS = array(
         "An application demonstrating the use of the Cairo Graphics Engine "
         . "in combination with PHP.\n"
         . "Inspired by Øyvind Kolås' Cairo samples.",
-    'APP_COPY'    => 'Copyright (C) 2009 Florian F Freeman',
+    'APP_COPY'    => 'Copyright (C) 2009-2014 Florian Breit',
     'APP_WEBSITE' => 'http://pecl.php.net/cairo'
 );
 
